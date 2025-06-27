@@ -1,22 +1,21 @@
-// src/App.jsx
+// N2IT PRODUCTIONS Website
 import React from 'react';
 import { Button } from "./components/ui/button";
-import { Card, CardContent } from './components/ui/card.jsx';
+import { Card, CardContent } from "./components/ui/card";
 import { motion } from "framer-motion";
 import { Sparkles } from "lucide-react";
 
-export default function App() {
+export default function N2ITProductions() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
-      {/* Header */}
-      <header className="p-6 bg-gradient-to-r from-purple-700 to-pink-500 shadow-lg">
+      <header className="p-6 bg-gradient-to-r from-gray-800 to-black shadow-lg">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold tracking-wide">N2IT PRODUCTIONS</h1>
-          <Button className="bg-white text-black hover:bg-gray-200">Book Now</Button>
+          <h1 className="text-3xl font-bold tracking-wide text-teal-400">N2IT PRODUCTIONS</h1>
+          <Button className="bg-teal-500 hover:bg-teal-600 text-white">Book Now</Button>
         </div>
       </header>
 
-      {/* Hero Section */}
+      {/* Hero Section with Loop Video */}
       <section className="w-full h-[60vh] overflow-hidden relative">
         <video
           autoPlay
@@ -27,7 +26,7 @@ export default function App() {
         />
         <div className="absolute z-10 inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
           <motion.h2
-            className="text-4xl font-extrabold mb-4"
+            className="text-4xl font-extrabold mb-4 text-teal-400"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -37,7 +36,7 @@ export default function App() {
           <p className="text-lg text-gray-300 mb-6">
             Elevating your event with high-energy sets, unforgettable vibes, and cutting-edge music production.
           </p>
-          <Button className="bg-pink-500 hover:bg-pink-600 text-white text-lg px-6 py-3 rounded-full">
+          <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full">
             Let’s Get N2IT <Sparkles className="ml-2" />
           </Button>
         </div>
@@ -45,11 +44,12 @@ export default function App() {
 
       {/* Bio Section */}
       <section className="p-8 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">Meet the Sound Behind N2IT</h2>
+        <h2 className="text-3xl font-bold mb-4 text-teal-400">Meet the Sound Behind N2IT</h2>
         <p className="text-gray-300">
           N2IT PRODUCTIONS is the heartbeat of Florida’s EDM scene. Based in St. Petersburg/Tampa Bay,
           we’re known for explosive DJ sets, immersive production, and an uncompromising dedication to
-          sound design that transforms any event into a sonic journey.
+          sound design that transforms any event into a sonic journey. Whether you’re throwing a house
+          party, wedding, or massive festival — we bring the beats that move people.
         </p>
       </section>
 
@@ -70,9 +70,9 @@ export default function App() {
               desc: "Need an exclusive drop or remix? We’ve got the studio magic to make your sound one of a kind."
             }
           ].map(({ title, desc }) => (
-            <Card key={title} className="bg-black border-pink-500 border">
+            <Card key={title} className="bg-black border-gray-700 border">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-pink-400">{title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-teal-400">{title}</h3>
                 <p className="text-gray-300">{desc}</p>
               </CardContent>
             </Card>
@@ -82,12 +82,12 @@ export default function App() {
 
       {/* Tracks Section */}
       <section className="p-8 max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Popular Tracks</h2>
+        <h2 className="text-3xl font-bold mb-6 text-teal-400">Popular Tracks</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[1, 2, 3].map((track) => (
             <Card key={track} className="bg-gray-800 border border-gray-700">
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-pink-400">Track Title {track}</h3>
+                <h3 className="text-lg font-semibold mb-2 text-teal-400">Track Title {track}</h3>
                 <p className="text-gray-400">Short description or vibe of this track.</p>
               </CardContent>
             </Card>
@@ -97,11 +97,9 @@ export default function App() {
 
       {/* Booking CTA */}
       <section className="p-8 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">Book N2IT For Your Next Event</h2>
-        <p className="text-gray-300 mb-6">
-          Fill out our quick booking form and let’s create an unforgettable experience together.
-        </p>
-        <Button className="bg-white text-black hover:bg-gray-300 text-lg px-6 py-3 rounded-full">
+        <h2 className="text-3xl font-bold mb-4 text-teal-400">Book N2IT For Your Next Event</h2>
+        <p className="text-gray-300 mb-6">Fill out our quick booking form and let’s create an unforgettable experience together.</p>
+        <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full">
           Book Now
         </Button>
       </section>
@@ -115,5 +113,6 @@ export default function App() {
     </div>
   );
 }
+
 
 

@@ -1,9 +1,8 @@
-// src/components/ui/card.jsx
 import React from "react";
 
 export function Card({ children, className = "" }) {
   return (
-    <div className={`rounded-lg shadow-md ${className}`}>
+    <div className={`border border-gray-700 rounded-lg shadow-md bg-gray-900 ${className}`}>
       {children}
     </div>
   );
