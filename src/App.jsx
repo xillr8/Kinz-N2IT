@@ -43,15 +43,15 @@ export default function N2ITProductions() {
       </section>
 
       {/* Bio Section */}
-      <section className="p-8 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4 text-teal-400">Meet the Sound Behind N2IT</h2>
-        <p className="text-gray-300">
-          N2IT PRODUCTIONS is the heartbeat of Florida’s EDM scene. Based in St. Petersburg/Tampa Bay,
-          we’re known for explosive DJ sets, immersive production, and an uncompromising dedication to
-          sound design that transforms any event into a sonic journey. Whether you’re throwing a house
-          party, wedding, or massive festival — we bring the beats that move people.
-        </p>
-      </section>
+<section className="px-4 py-12 max-w-4xl mx-auto text-center">
+  <h2 className="text-3xl md:text-4xl font-bold mb-6 text-teal-400">
+    About N2IT
+  </h2>
+  <p className="text-gray-300 text-lg leading-relaxed">
+    St. Pete’s premier EDM DJ and music production company, bringing high-energy beats to weddings, parties, clubs, festivals, and more. We tailor every performance to your vibe, creating unforgettable moments across Tampa Bay, Brandon, Bradenton, Sarasota, and venues across Florida. Book now and turn your next event into an unforgettable experience.
+  </p>
+</section>
+
 
       {/* Services Section */}
       <section className="p-8 bg-gray-900">
@@ -113,6 +113,7 @@ export default function N2ITProductions() {
     </div>
   );
 }
+
 
 
 
