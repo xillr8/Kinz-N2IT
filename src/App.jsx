@@ -15,15 +15,20 @@ export default function N2ITProductions() {
         </div>
       </header>
 
-      {/* Hero Section with Loop Video */}
-      <section className="w-full h-[60vh] overflow-hidden relative">
-        <video
-          autoPlay
-          loop
-          muted
-          className="w-full h-full object-cover absolute top-0 left-0 z-0"
-          src="https://player.vimeo.com/external/620019474.sd.mp4?s=aaefea8b172ffb4a355c26a64dbfdc116cf19e0e&profile_id=164&oauth2_token_id=57447761"
-        />
+     {/* Hero Section with Loop Video */}
+<section className="w-full h-[60vh] overflow-hidden relative">
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="w-full h-full object-cover absolute top-0 left-0 z-0"
+  >
+    <source src="/videos/hero.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</section>
+
         <div className="absolute z-10 inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
           <motion.h2
             className="text-4xl font-extrabold mb-4 text-teal-400"
