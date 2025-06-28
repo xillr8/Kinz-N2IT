@@ -1,34 +1,36 @@
-// N2IT PRODUCTIONS Website
-import React from 'react';
-import { Button } from "./components/ui/button";
-import { Card, CardContent } from "./components/ui/card";
 import { motion } from "framer-motion";
-import { Sparkles } from "lucide-react";
+import Button from "./Button"; // adjust your imports as needed
+import Card from "./Card";
+import CardContent from "./CardContent";
+import { Sparkles } from "some-icon-library"; // adjust or remove if needed
 
 export default function N2ITProductions() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
+
       <header className="p-6 bg-gradient-to-r from-gray-800 to-black shadow-lg">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold tracking-wide text-teal-400">N2IT PRODUCTIONS</h1>
+          <h1 className="text-3xl font-bold tracking-wide text-teal-400">
+            N2IT PRODUCTIONS
+          </h1>
           <Button className="bg-teal-500 hover:bg-teal-600 text-white">Book Now</Button>
         </div>
       </header>
 
-     {/* Hero Section with Loop Video */}
-<section className="w-full h-[60vh] overflow-hidden relative">
-  <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="w-full h-full object-cover absolute top-0 left-0 z-0"
-  >
-    <source src="/videos/hero.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</section>
+      {/* Hero Section with Loop Video */}
+      <section className="w-full h-[60vh] overflow-hidden relative">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover absolute top-0 left-0 z-0"
+        >
+          <source src="/videos/hero.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
+        {/* Overlay content */}
         <div className="absolute z-10 inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
           <motion.h2
             className="text-4xl font-extrabold mb-4 text-teal-400"
@@ -48,15 +50,12 @@ export default function N2ITProductions() {
       </section>
 
       {/* Bio Section */}
-<section className="px-4 py-12 max-w-4xl mx-auto text-center">
-  <h2 className="text-3xl md:text-4xl font-bold mb-6 text-teal-400">
-    About N2IT
-  </h2>
-  <p className="text-gray-300 text-lg leading-relaxed">
-    St. Pete’s premier EDM DJ and music production company, bringing high-energy beats to weddings, parties, clubs, festivals, and more. We tailor every performance to your vibe, creating unforgettable moments across Tampa Bay, Brandon, Bradenton, Sarasota, and venues across Florida. Book now and turn your next event into an unforgettable experience.
-  </p>
-</section>
-
+      <section className="px-4 py-12 max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-teal-400">About N2IT</h2>
+        <p className="text-gray-300 text-lg leading-relaxed">
+          St. Pete’s premier EDM DJ and music production company, bringing high-energy beats to weddings, parties, clubs, festivals, and more. We tailor every performance to your vibe, creating unforgettable moments across Tampa Bay, Brandon, Bradenton, Sarasota, and venues across Florida. Book now and turn your next event into an unforgettable experience.
+        </p>
+      </section>
 
       {/* Services Section */}
       <section className="p-8 bg-gray-900">
@@ -118,6 +117,7 @@ export default function N2ITProductions() {
     </div>
   );
 }
+
 
 
 
