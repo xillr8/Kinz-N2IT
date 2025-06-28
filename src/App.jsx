@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
-import Button from "./Button"; // adjust your imports as needed
-import Card from "./Card";
-import CardContent from "./CardContent";
-import { Sparkles } from "some-icon-library"; // adjust or remove if needed
+import Button from "./components/Button";
+import { Card, CardContent } from "./components/Card";
+import { Sparkles } from "lucide-react"
 
 export default function N2ITProductions() {
   return (
