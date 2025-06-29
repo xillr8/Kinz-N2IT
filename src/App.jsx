@@ -61,12 +61,12 @@ export default function N2ITProductions() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {[
             {
-              title: "Club & Festival Sets",
-              desc: "Bringing the energy to every crowd with bass-pumping beats and seamless transitions."
+              title: "Live DJ Sets",
+              desc: "From techno to drum & bass, deep house to trance, we read the crowd and create the perfect sound to keep your guests dancing all night long."
             },
             {
-              title: "Private Events",
-              desc: "From beach parties to weddings — we turn every gathering into a full-blown rave."
+              title: "Event DJ Services",
+              desc: "From beach parties to weddings — we bring the sound and style tailored to your vision, creating an unforgettable experience for your guests."
             },
             {
               title: "Custom Music Production",
