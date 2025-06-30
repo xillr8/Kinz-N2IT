@@ -10,9 +10,12 @@ export default function N2ITProductions() {
 
       <header className="p-6 bg-gradient-to-r from-gray-800 to-black shadow-lg">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold tracking-wide text-teal-400">
-            N2IT PRODUCTIONS
-          </h1>
+          <img
+            src="/images/logo.jpg"
+            alt="N2IT Productions Logo"
+            className="h-12"
+            style={{ cursor: 'pointer' }}
+          />
           <Button className="bg-teal-500 hover:bg-teal-600 text-white">Book Now</Button>
         </div>
       </header>
