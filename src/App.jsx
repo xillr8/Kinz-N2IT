@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Button from "./components/Button";
-import { Card, CardContent } from "./components/Card";
+import Card from "./components/Card";
+import CardContent from "./components/CardContent";
 import { Sparkles } from "lucide-react"
 
 export default function N2ITProductions() {

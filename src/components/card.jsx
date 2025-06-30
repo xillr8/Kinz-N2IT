@@ -1,18 +1,9 @@
-import React from "react";
-
-export function Card({ children, className = "" }) {
+export default function Card({ children, className = "" }) {
   return (
-    <div className={`border border-gray-700 rounded-lg shadow-md bg-gray-900 ${className}`}>
+    <div className={`bg-gray-700 p-6 rounded-xl shadow-lg ${className}`}>
       {children}
     </div>
   );
 }
 
-export function CardContent({ children, className = "" }) {
-  return (
-    <div className={`p-4 ${className}`}>
-      {children}
-    </div>
-  );
-}
 
