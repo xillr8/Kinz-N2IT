@@ -47,7 +47,7 @@ export default function N2ITProductions() {
             Elevating your event with high-energy sets, unforgettable vibes, and cutting-edge music production.
           </p>
           <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full">
-            Let’s Get N2IT <Sparkles className="ml-2" />
+            CONTACT US <Sparkles className="ml-2" />
           </Button>
         </div>
       </section>
@@ -61,31 +61,55 @@ export default function N2ITProductions() {
       </section>
 
       {/* Services Section */}
-      <section className="p-8 bg-gray-900">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {[
-            {
-              title: "Live DJ Sets",
-              desc: "From techno to drum & bass, deep house to trance, we read the crowd and create the perfect sound to keep your guests dancing all night long."
-            },
-            {
-              title: "Event DJ Services",
-              desc: "From beach parties to weddings — we bring the sound and style tailored to your vision, creating an unforgettable experience for your guests."
-            },
-            {
-              title: "Custom Music Production",
-              desc: "Need an exclusive drop or remix? We’ve got the studio magic to make your sound one of a kind."
-            }
-          ].map(({ title, desc }) => (
-            <Card key={title} className="bg-black border-gray-700 border">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-teal-400">{title}</h3>
-                <p className="text-gray-300">{desc}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+   <section className="p-8 bg-gray-900">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    {[
+      {
+        title: "Live DJ Sets",
+        desc: "From deep house to drum & bass, trance to techno, we read the crowd and create the perfect vibe, with seamless mixes and deep bass, we'll keep your guests dancing all night long."
+      },
+      {
+        title: "Event DJ Services",
+        desc: "Weddings, private parties, club nights and corporate events — we bring the sound and style tailored to your vision, creating an unforgettable experience."
+      },
+      {
+        title: "Custom Music Production",
+        desc: "Need an exclusive drop or remix? We’ve got the studio magic to make your sound one of a kind."
+      }
+    ].map(({ title, desc }) => (
+      <Card key={title} className="bg-black border-gray-700 border">
+        <CardContent className="p-6">
+          <h3 className="text-xl font-bold mb-2 text-teal-400">{title}</h3>
+          <p className="text-gray-300">{desc}</p>
+        </CardContent>
+      </Card>
+    ))}
+  </div>
+
+  <div
+    id="service-areas"
+    className="bg-[#1a1a1a] text-white font-sans py-16 text-center px-4 mt-12"
+  >
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-3xl font-bold mb-6">📍 Our Service Areas</h2>
+      <p className="text-base text-gray-300 mb-6 leading-relaxed">
+        We proudly serve the entire Tampa Bay Area, including:
+      </p>
+      <ul className="text-cyan-400 font-semibold space-y-2 text-lg">
+        <li>St. Petersburg</li>
+        <li>Tampa Bay Area</li>
+        <li>Brandon</li>
+        <li>Bradenton</li>
+        <li>Sarasota</li>
+        <li>Plus surrounding cities and venues across the state of Florida</li>
+      </ul>
+      <p className="text-base text-gray-300 mt-6 leading-relaxed">
+        No matter where your event is,{" "}
+        <span className="font-semibold text-white">we bring the beats to you.</span>
+      </p>
+    </div>
+  </div>
+</section>
 
       {/* Tracks Section */}
       <section className="p-8 max-w-6xl mx-auto text-center">
