@@ -13,7 +13,7 @@ export default function N2ITProductions() {
           <img
             src="/images/logo.jpg"
             alt="N2IT Productions Logo"
-            className="h-12"
+            className="h-15"
             style={{ cursor: 'pointer' }}
           />
           <Button className="bg-teal-500 hover:bg-teal-600 text-white">Book Now</Button>
@@ -118,7 +118,7 @@ export default function N2ITProductions() {
           {[1, 2, 3].map((track) => (
             <Card key={track} className="bg-gray-800 border border-gray-700">
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-[#7d26cd]">Track Title {track}</h3>
+                <h3 className="text-lg font-semibold mb-2 text-[00CED1]">Track Title {track}</h3>
                 <p className="text-gray-400">Short description or vibe of this track.</p>
               </CardContent>
             </Card>
