@@ -36,7 +36,7 @@ export default function N2ITProductions() {
         {/* Overlay content */}
         <div className="absolute z-10 inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
           <motion.h2
-            className="text-4xl font-extrabold mb-4 text-teal-400"
+            className="text-4xl font-extrabold mb-4 text-cyan-400"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -79,7 +79,7 @@ export default function N2ITProductions() {
     ].map(({ title, desc }) => (
       <Card key={title} className="bg-black border-gray-700 border">
         <CardContent className="p-6">
-          <h3 className="text-xl font-bold mb-2 text-teal-400">{title}</h3>
+          <h3 className="text-xl font-bold mb-2 text-cyan-400">{title}</h3>
           <p className="text-gray-300">{desc}</p>
         </CardContent>
       </Card>
