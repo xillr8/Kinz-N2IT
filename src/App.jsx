@@ -13,7 +13,7 @@ export default function N2ITProductions() {
           <img
             src="/images/logo.jpg"
             alt="N2IT Productions Logo"
-            className="h-15"
+            className="h-12"
             style={{ cursor: 'pointer' }}
           />
           <Button className="bg-teal-500 hover:bg-teal-600 text-white">Book Now</Button>
