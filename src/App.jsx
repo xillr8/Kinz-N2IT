@@ -44,7 +44,7 @@ export default function N2ITProductions() {
             Tampa Bay’s Premier EDM DJ Service
           </motion.h2>
           <p className="text-lg text-gray-300 mb-6">
-            Elevating your event with high-energy sets, unforgettable vibes, and cutting-edge music production.
+            Elevating your event with high-energy sets, unforgettable vibes, and cutting-edge event production.
           </p>
           <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full">
             CONTACT US <Sparkles className="ml-2" />
@@ -56,7 +56,7 @@ export default function N2ITProductions() {
       <section className="px-4 py-12 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#7d26cd]">About N2IT</h2>
         <p className="text-gray-300 text-lg leading-relaxed">
-          St. Pete’s premier EDM DJ and music production company, bringing high-energy beats to weddings, parties, clubs, festivals, and more. We tailor every performance to your vibe, creating unforgettable moments across Tampa Bay, Brandon, Bradenton, Sarasota, and venues across Florida. Book now and turn your next event into an unforgettable experience.
+          St. Pete’s premier EDM DJ bringing high-energy beats to weddings, parties, clubs, festivals, and more. We tailor every performance to your vibe, creating unforgettable moments across Tampa Bay, Brandon, Bradenton, Sarasota, and venues across Florida. Book now and turn your next event into an unforgettable experience.
         </p>
       </section>
 
