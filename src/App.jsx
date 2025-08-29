@@ -1,13 +1,15 @@
+import React from "react";
 import { motion } from "framer-motion";
 import Button from "./components/Button";
-import Card from "./components/card";
+import Card from "./components/Card";
 import CardContent from "./components/CardContent";
-import { Sparkles } from "lucide-react"
+import { Sparkles } from "lucide-react";
 
 export default function N2ITProductions() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
 
+      {/* Header */}
       <header className="p-6 bg-gradient-to-r from-gray-800 to-black shadow-lg">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <img
@@ -20,7 +22,7 @@ export default function N2ITProductions() {
         </div>
       </header>
 
-      {/* Hero Section with Loop Video */}
+      {/* Hero Section */}
       <section className="w-full h-[60vh] overflow-hidden relative">
         <video
           autoPlay
@@ -33,10 +35,9 @@ export default function N2ITProductions() {
           Your browser does not support the video tag.
         </video>
 
-        {/* Overlay content */}
         <div className="absolute z-10 inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
           <motion.h2
-            className="text-4xl font-extrabold mb-4 text-cyan-400"
+            className="text-4xl font-extrabold mb-4 text-[#00BFC2]"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -52,7 +53,7 @@ export default function N2ITProductions() {
         </div>
       </section>
 
-      {/* Bio Section */}
+      {/* About Section */}
       <section className="px-4 py-12 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#7d26cd]">About N2IT</h2>
         <p className="text-gray-300 text-lg leading-relaxed">
@@ -61,55 +62,51 @@ export default function N2ITProductions() {
       </section>
 
       {/* Services Section */}
-   <section className="p-8 bg-gray-900">
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-    {[
-      {
-        title: "Live DJ Sets",
-        desc: "From deep house to drum & bass, trance to techno, we read the crowd and create the perfect vibe, with seamless mixes and deep bass, we'll keep your guests dancing all night long."
-      },
-      {
-        title: "Event DJ Services",
-        desc: "Weddings, private parties, club nights and corporate events — we bring the sound and style tailored to your vision, creating an unforgettable experience."
-      },
-      {
-        title: "Custom Music Production",
-        desc: "Need an exclusive drop or remix? We’ve got the studio magic to make your sound one of a kind."
-      }
-    ].map(({ title, desc }) => (
-      <Card key={title} className="bg-black border-gray-700 border">
-        <CardContent className="p-6">
-          <h3 className="text-xl font-bold mb-2 text-cyan-400">{title}</h3>
-          <p className="text-gray-300">{desc}</p>
-        </CardContent>
-      </Card>
-    ))}
-  </div>
+      <section className="p-8 bg-gray-900">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {[
+            {
+              title: "Live DJ Sets",
+              desc: "From deep house to drum & bass, trance to techno, we read the crowd and create the perfect vibe, with seamless mixes and deep bass, we'll keep your guests dancing all night long."
+            },
+            {
+              title: "Event DJ Services",
+              desc: "Weddings, private parties, club nights and corporate events — we bring the sound and style tailored to your vision, creating an unforgettable experience."
+            },
+            {
+              title: "Custom Music Production",
+              desc: "Need an exclusive drop or remix? We’ve got the studio magic to make your sound one of a kind."
+            }
+          ].map(({ title, desc }) => (
+            <Card key={title} className="bg-black border-gray-700 border">
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-[#00BFC2]">{title}</h3>
+                <p className="text-gray-300">{desc}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
 
-  <div
-    id="service-areas"
-    className="bg-[#1a1a1a] text-white font-sans py-16 text-center px-4 mt-12"
-  >
-    <div className="max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6">📍 Our Service Areas</h2>
-      <p className="text-base text-gray-300 mb-6 leading-relaxed">
-        We proudly serve the entire Tampa Bay Area, including:
-      </p>
-      <ul className="text-cyan-400 font-semibold space-y-2 text-lg">
-        <li>St. Petersburg</li>
-        <li>Tampa Bay Area</li>
-        <li>Brandon</li>
-        <li>Bradenton</li>
-        <li>Sarasota</li>
-        <li>Plus surrounding cities and venues across the state of Florida</li>
-      </ul>
-      <p className="text-base text-gray-300 mt-6 leading-relaxed">
-        No matter where your event is,{" "}
-        <span className="font-semibold text-white">we bring the beats to you.</span>
-      </p>
-    </div>
-  </div>
-</section>
+        <div id="service-areas" className="bg-[#1a1a1a] text-white font-sans py-16 text-center px-4 mt-12">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-6">📍 Our Service Areas</h2>
+            <p className="text-base text-gray-300 mb-6 leading-relaxed">
+              We proudly serve the entire Tampa Bay Area, including:
+            </p>
+            <ul className="text-[#00BFC2] font-semibold space-y-2 text-lg">
+              <li>St. Petersburg</li>
+              <li>Tampa Bay Area</li>
+              <li>Brandon</li>
+              <li>Bradenton</li>
+              <li>Sarasota</li>
+              <li>Plus surrounding cities and venues across the state of Florida</li>
+            </ul>
+            <p className="text-base text-gray-300 mt-6 leading-relaxed">
+              No matter where your event is, <span className="font-semibold text-white">we bring the beats to you.</span>
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Tracks Section */}
       <section className="p-8 max-w-6xl mx-auto text-center">
@@ -118,7 +115,7 @@ export default function N2ITProductions() {
           {[1, 2, 3].map((track) => (
             <Card key={track} className="bg-gray-800 border border-gray-700">
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-[00CED1]">Track Title {track}</h3>
+                <h3 className="text-lg font-semibold mb-2 text-[#00BFC2]">Track Title {track}</h3>
                 <p className="text-gray-400">Short description or vibe of this track.</p>
               </CardContent>
             </Card>
@@ -144,8 +141,3 @@ export default function N2ITProductions() {
     </div>
   );
 }
-
-
-
-
-
