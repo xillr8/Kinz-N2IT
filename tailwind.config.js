@@ -9,9 +9,13 @@ export default {
       colors: {
         brandTeal: "#00BFC2",
       },
+      height: {
+        hero: "70vh", // Hero section height (10% taller than before)
+      },
     },
   },
   plugins: [],
 }
+
 
 
