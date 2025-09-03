@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import Card from "./components/Card";
 import CardContent from "./components/CardContent";
 import { Sparkles } from "lucide-react";
+import TracksSection from "./components/TracksSection";
 
 export default function N2ITProductions() {
   return (
@@ -109,19 +110,7 @@ export default function N2ITProductions() {
       </section>
 
       {/* Tracks Section */}
-      <section className="p-8 max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6 text-[#7d26cd]">Popular Tracks</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[1, 2, 3].map((track) => (
-            <Card key={track} className="bg-gray-800 border border-gray-700">
-              <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-[#00BFC2]">Track Title {track}</h3>
-                <p className="text-gray-400">Short description or vibe of this track.</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+      <TracksSection />
 
       {/* Booking CTA */}
       <section className="p-8 max-w-4xl mx-auto text-center">
