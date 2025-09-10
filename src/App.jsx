@@ -37,16 +37,14 @@ export default function N2ITProductions() {
 
         <div className="absolute z-10 inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center px-4">
           <motion.h2
-            className="text-4xl font-extrabold mb-4 text-[#00BFC2]"
+            className="text-4xl font-extrabold mb-4 text-white"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Tampa Bay’s Premier EDM DJ Service
+            We're Not Just DJs, We're Music Curators
           </motion.h2>
-          <p className="text-lg text-gray-300 mb-6">
-            Elevating your event with high-energy sets, unforgettable vibes, and cutting-edge event production.
-          </p>
+          
           <a href="tel:+19412180625">
           <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full">
             CONTACT US
