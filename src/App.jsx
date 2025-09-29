@@ -74,8 +74,8 @@ export default function N2ITProductions() {
               desc: "Weddings, private parties, club nights and corporate events — we bring the sound and style tailored to your vision, creating an unforgettable experience."
             },
             {
-              title: "Custom Music Production",
-              desc: "Need an exclusive drop or remix? We’ve got the studio magic to make your sound one of a kind."
+              title: "Event Production",
+              desc: "Top-tier sound systems, intelligent lighting, and FX that transform any venue into a high-energy atmosphere."
             }
           ].map(({ title, desc }) => (
             <Card key={title} className="bg-black border-gray-700 border">
