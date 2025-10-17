@@ -112,13 +112,52 @@ export default function N2ITProductions() {
       <TracksSection />
 
       {/* Booking CTA */}
-      <section className="p-8 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4 text-[#7d26cd]">Book N2IT For Your Next Event</h2>
-        <p className="text-gray-300 mb-6">Fill out our quick booking form and let’s create an unforgettable experience together.</p>
-        <Button className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full">
-          Book Now
-        </Button>
-      </section>
+<section className="p-8 max-w-4xl mx-auto text-center">
+  <h2 className="text-3xl font-bold mb-4 text-[#00BFC2]">
+    Book N2IT For Your Next Event
+  </h2>
+  <p className="text-gray-300 mb-6">
+    Fill out our quick booking form and let’s create an unforgettable experience.
+  </p>
+  <Button
+    onClick={() => {
+      document.getElementById("booking-form").scrollIntoView({ behavior: "smooth" });
+    }}
+    className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full cursor-pointer"
+  >
+    BOOK NOW
+  </Button>
+</section>
+
+{/* Booking Form Section */}
+<section id="booking-form" className="booking-form-section">
+  <h2>Book Your Event</h2>
+  
+  <form 
+    action="https://formspree.io/f/mnngzozq" 
+    method="POST"
+  >
+
+  <label>
+      Name:
+      <input type="text" name="name" required />
+    </label>
+    <label>
+      Email:
+      <input type="email" name="email" required />
+    </label>
+    <label>
+      Event Date:
+      <input type="date" name="event_date" required />
+    </label>
+    <label>
+      Message:
+      <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
 
       {/* Footer */}
       <footer className="bg-gray-800 p-6 mt-12">
