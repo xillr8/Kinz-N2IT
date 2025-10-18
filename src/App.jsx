@@ -129,37 +129,232 @@ export default function N2ITProductions() {
   </Button>
 </section>
 
-{/* Booking Form Section */}
-<section id="booking-form" className="booking-form-section">
-  <h2>Book Your Event</h2>
-  
-  <form 
-    action="https://formspree.io/f/mnngzozq" 
-    method="POST"
-  >
+ {/* Booking Form Section */}
+<section id="booking-form" className="bg-black py-16 px-6 flex flex-col items-center justify-center text-center">
+  <h2 className="text-4xl font-bold text-[#00BFC2] mb-8">Book Your Event</h2>
 
-  <label>
-      Name:
-      <input type="text" name="name" required />
-    </label>
-    <label>
-      Email:
-      <input type="email" name="email" required />
-    </label>
-    <label>
-      Event Date:
-      <input type="date" name="event_date" required />
-    </label>
-    <label>
-      Message:
-      <textarea name="message"></textarea>
-    </label>
-    <button type="submit">Submit</button>
+  <form
+    action="https://formspree.io/f/mnngzozq"
+    method="POST"
+    className="w-full max-w-lg bg-gray-900 bg-opacity-90 p-8 rounded-2xl shadow-lg space-y-6"
+  >
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Name</label>
+      <input
+        type="text"
+        name="name"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Email</label>
+      <input
+        type="email"
+        name="email"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Event Date</label>
+      <input
+        type="date"
+        name="event_date"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Message</label>
+      <textarea
+        name="message"
+        placeholder="Tell us about your event..."
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      className="w-full py-3 bg-[#00BFC2] text-black font-bold rounded-full hover:bg-[#00e0e4] transition-all duration-300 shadow-md hover:shadow-lg"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+{/* Booking Form Section */}
+<section id="booking-form" className="bg-black py-16 px-6 flex flex-col items-center justify-center text-center">
+  <h2 className="text-4xl font-bold text-[#00BFC2] mb-8">Book Your Event</h2>
+
+  <form
+    action="https://formspree.io/f/mnngzozq"
+    method="POST"
+    className="w-full max-w-lg bg-gray-900 bg-opacity-90 p-8 rounded-2xl shadow-lg space-y-6"
+  >
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Name</label>
+      <input
+        type="text"
+        name="name"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Email</label>
+      <input
+        type="email"
+        name="email"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Event Date</label>
+      <input
+        type="date"
+        name="event_date"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Message</label>
+      <textarea
+        name="message"
+        placeholder="Tell us about your event..."
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      className="w-full py-3 bg-[#00BFC2] text-black font-bold rounded-full hover:bg-[#00e0e4] transition-all duration-300 shadow-md hover:shadow-lg"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+{/* Booking Form Section */}
+<section id="booking-form" className="bg-black py-16 px-6 flex flex-col items-center justify-center text-center">
+  <h2 className="text-4xl font-bold text-[#00BFC2] mb-8">Book Your Event</h2>
+
+  <form
+    action="https://formspree.io/f/mnngzozq"
+    method="POST"
+    className="w-full max-w-lg bg-gray-900 bg-opacity-90 p-8 rounded-2xl shadow-lg space-y-6"
+  >
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Name</label>
+      <input
+        type="text"
+        name="name"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Email</label>
+      <input
+        type="email"
+        name="email"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Event Date</label>
+      <input
+        type="date"
+        name="event_date"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Message</label>
+      <textarea
+        name="message"
+        placeholder="Tell us about your event..."
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      className="w-full py-3 bg-[#00BFC2] text-black font-bold rounded-full hover:bg-[#00e0e4] transition-all duration-300 shadow-md hover:shadow-lg"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+{/* Booking Form Section */}
+<section id="booking-form" className="bg-black py-16 px-6 flex flex-col items-center justify-center text-center">
+  <h2 className="text-4xl font-bold text-[#00BFC2] mb-8">Book Your Event</h2>
+
+  <form
+    action="https://formspree.io/f/mnngzozq"
+    method="POST"
+    className="w-full max-w-lg bg-gray-900 bg-opacity-90 p-8 rounded-2xl shadow-lg space-y-6"
+  >
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Name</label>
+      <input
+        type="text"
+        name="name"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Email</label>
+      <input
+        type="email"
+        name="email"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Event Date</label>
+      <input
+        type="date"
+        name="event_date"
+        required
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      />
+    </div>
+
+    <div className="flex flex-col text-left">
+      <label className="text-gray-300 mb-2 font-semibold">Message</label>
+      <textarea
+        name="message"
+        placeholder="Tell us about your event..."
+        className="p-3 rounded-lg bg-gray-800 text-white border border-gray-700 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-[#00BFC2] transition-all duration-300"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      className="w-full py-3 bg-[#00BFC2] text-black font-bold rounded-full hover:bg-[#00e0e4] transition-all duration-300 shadow-md hover:shadow-lg"
+    >
+      Send Message
+    </button>
   </form>
 </section>
 
-
-      {/* Footer */}
+   {/* Footer */}
       <footer className="bg-gray-800 p-6 mt-12">
         <div className="text-center text-gray-400 text-sm">
           © {new Date().getFullYear()} N2IT PRODUCTIONS. All rights reserved.
