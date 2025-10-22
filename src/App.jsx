@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import CardContent from "./components/CardContent";
 import TracksSection from "./components/TracksSection";
 
+
 export default function N2ITProductions() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
@@ -109,6 +110,18 @@ export default function N2ITProductions() {
         </div>
       </section>
 
+         {/* Mission section */}
+      <section className="mission-section py-12 bg-gray-100 text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-4 text-blue-500 font-sans">
+            Our Mission
+          </h2>
+          <p className="text-lg max-w-2xl mx-auto font-sans">
+            At N2IT PRODUCTIONS, our mission is simple: to elevate every event with music that moves people. We believe in the power of sound to connect, energize, and inspire — and we're here to help make your moments unforgettable.
+          </p>
+        </div>
+      </section>
+      
       {/* Tracks Section */}
       <TracksSection />
 
