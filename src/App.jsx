@@ -119,15 +119,7 @@ export default function N2ITProductions() {
   <p className="text-gray-300 mb-6">
     Fill out our quick booking form and let’s create an unforgettable experience.
   </p>
-  <Button
-    onClick={() => {
-      document.getElementById("booking-form").scrollIntoView({ behavior: "smooth" });
-    }}
-    className="bg-teal-500 hover:bg-teal-600 text-white text-lg px-6 py-3 rounded-full cursor-pointer"
-  >
-    BOOK NOW
-  </Button>
-</section>
+ </section>
 
  {/* Booking Form Section */}
 <section id="booking-form" className="bg-black py-16 px-6 flex flex-col items-center justify-center text-center">
