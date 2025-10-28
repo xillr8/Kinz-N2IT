@@ -157,7 +157,7 @@ export default function N2ITProductions() {
   <div className="flex flex-col md:flex-row items-center">
     <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
       <img
-        src="/img3.jpg"
+        src="/https://images.pexels.com/photos/5610120/pexels-photo-5610120.jpeg?_gl=1*1mnwwu6*_ga*MTY0NjI3MjAwMC4xNzYxNjg2NzA3*_ga_8JE65Q40S6*czE3NjE2ODY3MDckbzEkZzEkdDE3NjE2ODg1NjckajYwJGwwJGgw"
         alt="Seamless Event Management and Coordination"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
