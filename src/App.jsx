@@ -110,15 +110,22 @@ export default function N2ITProductions() {
         </div>
       </section>
 
-         <div className="px-4 py-12 max-w-6xl mx-auto">
+        <div className="px-4 py-12 max-w-6xl mx-auto">
   <h2 className="text-3xl md:text-4xl font-bold mb-12 text-[#7d26cd] text-center">
     What you get when you book N2IT
   </h2>
 
-  {/* Block 1: Right aligned */}
-  <div className="flex flex-col md:flex-row md:justify-end mb-12">
-    <div className="md:w-1/2 bg-[#f3e8ff] p-6 rounded-xl shadow-lg text-gray-800 text-lg leading-relaxed">
-      <h3 className="font-bold text-xl mb-2 text-[#7d26cd]">
+  {/* Block 1: Text Right / Image Left */}
+  <div className="flex flex-col md:flex-row items-center mb-16">
+    <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
+      <img
+        src="/img1.jpg"
+        alt="Expertise in Music Curation and Mixing"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#7d26cd]">
         Expertise in Music Curation and Mixing
       </h3>
       <p>
@@ -127,10 +134,17 @@ export default function N2ITProductions() {
     </div>
   </div>
 
-  {/* Block 2: Left aligned */}
-  <div className="flex flex-col md:flex-row md:justify-start mb-12">
-    <div className="md:w-1/2 bg-[#e0f7fa] p-6 rounded-xl shadow-lg text-gray-800 text-lg leading-relaxed">
-      <h3 className="font-bold text-xl mb-2 text-[#007c91]">
+  {/* Block 2: Text Left / Image Right */}
+  <div className="flex flex-col md:flex-row-reverse items-center mb-16">
+    <div className="md:w-1/2 md:pl-8 mb-6 md:mb-0">
+      <img
+        src="/img2.jpg"
+        alt="State-of-the-Art Equipment and Sound Design"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#00bfc2]">
         State-of-the-Art Equipment and Sound Design
       </h3>
       <p>
@@ -139,10 +153,17 @@ export default function N2ITProductions() {
     </div>
   </div>
 
-  {/* Block 3: Right aligned */}
-  <div className="flex flex-col md:flex-row md:justify-end">
-    <div className="md:w-1/2 bg-[#f3e8ff] p-6 rounded-xl shadow-lg text-gray-800 text-lg leading-relaxed">
-      <h3 className="font-bold text-xl mb-2 text-[#7d26cd]">
+  {/* Block 3: Text Right / Image Left */}
+  <div className="flex flex-col md:flex-row items-center">
+    <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
+      <img
+        src="/img3.jpg"
+        alt="Seamless Event Management and Coordination"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#7d26cd]">
         Seamless Event Management and Coordination
       </h3>
       <p>
