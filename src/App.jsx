@@ -110,19 +110,49 @@ export default function N2ITProductions() {
         </div>
       </section>
 
-         {/* Mission section */}
-      <section className="mission-section py-12 bg-gray-100 text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-4 text-blue-500 font-sans">
-            Our Mission
-          </h2>
-          <p className="text-lg max-w-2xl mx-auto font-sans">
-            At N2IT PRODUCTIONS, our mission is simple: to elevate every event with music that moves people. We believe in the power of sound to connect, energize, and inspire — and we're here to help make your moments unforgettable.
-          </p>
-        </div>
-      </section>
-      
-      {/* Tracks Section */}
+         <div className="px-4 py-12 max-w-6xl mx-auto">
+  <h2 className="text-3xl md:text-4xl font-bold mb-12 text-[#7d26cd] text-center">
+    What you get when you book N2IT
+  </h2>
+
+  {/* Block 1: Right aligned */}
+  <div className="flex flex-col md:flex-row md:justify-end mb-12">
+    <div className="md:w-1/2 bg-[#f3e8ff] p-6 rounded-xl shadow-lg text-gray-800 text-lg leading-relaxed">
+      <h3 className="font-bold text-xl mb-2 text-[#7d26cd]">
+        Expertise in Music Curation and Mixing
+      </h3>
+      <p>
+        Our DJs are seasoned professionals who understand the art of reading a crowd. Whether it’s a deep house groove, an energetic trance build-up, or a bass-heavy dubstep drop, every transition is timed to perfection. We blend genres seamlessly to keep energy levels high while maintaining flow and coherence.
+      </p>
+    </div>
+  </div>
+
+  {/* Block 2: Left aligned */}
+  <div className="flex flex-col md:flex-row md:justify-start mb-12">
+    <div className="md:w-1/2 bg-[#e0f7fa] p-6 rounded-xl shadow-lg text-gray-800 text-lg leading-relaxed">
+      <h3 className="font-bold text-xl mb-2 text-[#007c91]">
+        State-of-the-Art Equipment and Sound Design
+      </h3>
+      <p>
+        Sound quality defines an event’s impact. Our team uses industry-leading Pioneer DJ systems, digital mixers, and advanced sound reinforcement setups to ensure crystal-clear audio and powerful bass. Each event is fine-tuned using acoustic analysis and professional-grade speakers to ensure immersive sound delivery.
+      </p>
+    </div>
+  </div>
+
+  {/* Block 3: Right aligned */}
+  <div className="flex flex-col md:flex-row md:justify-end">
+    <div className="md:w-1/2 bg-[#f3e8ff] p-6 rounded-xl shadow-lg text-gray-800 text-lg leading-relaxed">
+      <h3 className="font-bold text-xl mb-2 text-[#7d26cd]">
+        Seamless Event Management and Coordination
+      </h3>
+      <p>
+        From lighting to stage setup, our in-house coordinators handle every detail. We collaborate with event planners, photographers, and venue managers to ensure the music matches the moment—perfectly.
+      </p>
+    </div>
+  </div>
+</div>
+
+   {/* Tracks Section */}
       <TracksSection />
 
       {/* Booking CTA */}
