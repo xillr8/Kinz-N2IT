@@ -119,7 +119,7 @@ export default function N2ITProductions() {
   <div className="flex flex-col md:flex-row items-center mb-16">
     <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
       <img
-        src="/img1.jpg"
+        src="/images/pexels-keremkaplan-11533554.jpg"
         alt="Expertise in Music Curation and Mixing"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
@@ -138,7 +138,7 @@ export default function N2ITProductions() {
   <div className="flex flex-col md:flex-row-reverse items-center mb-16">
     <div className="md:w-1/2 md:pl-8 mb-6 md:mb-0">
       <img
-        src="/img2.jpg"
+        src="/images/pexels-giovanaspiller-16580469.jpg"
         alt="State-of-the-Art Equipment and Sound Design"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
