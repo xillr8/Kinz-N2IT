@@ -43,7 +43,7 @@ export default function N2ITProductions() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            We're Not Just DJs, We're Music Curators
+            LET'S GET N2IT
           </motion.h2>
           
           <a href="tel:+19412180625">
