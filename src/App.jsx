@@ -112,7 +112,7 @@ export default function N2ITProductions() {
 
         <div className="px-4 py-12 max-w-6xl mx-auto">
   <h2 className="text-3xl md:text-4xl font-bold mb-12 text-[#7d26cd] text-center">
-    What you get when you book N2IT
+    What You Get When You Book N2IT
   </h2>
 
   {/* Block 1: Text Right / Image Left */}
