@@ -243,12 +243,17 @@ export default function N2ITProductions() {
   </form>
 </section>
 
-   {/* Footer */}
-      <footer className="bg-gray-800 p-6 mt-12">
-        <div className="text-center text-gray-400 text-sm">
-          © {new Date().getFullYear()} N2IT PRODUCTIONS. All rights reserved.
-        </div>
-      </footer>
-    </div>
-  );
-}
+   <footer className="bg-gray-800 p-6 mt-12">
+  <div className="flex flex-col items-center space-y-2">
+
+    <p className="text-center text-gray-400 text-sm">
+      © {new Date().getFullYear()} N2IT PRODUCTIONS. All rights reserved.
+    </p>
+
+    <p className="text-gray-500 text-sm tracking-wide">
+      Website designed & developed by{" "}
+      <span className="text-[#00BFC2] font-semibold">Digisphere</span>
+    </p>
+
+  </div>
+</footer>
