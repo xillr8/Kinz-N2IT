@@ -254,8 +254,9 @@ export default function N2ITProductions() {
       Website designed & developed by{" "}
       <span className="text-[#00BFC2] font-semibold">Digisphere</span>
     </p>
-
+   </div>
   </footer>
+      
    </div>
   );
-      }
+ }
