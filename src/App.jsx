@@ -255,5 +255,7 @@ export default function N2ITProductions() {
       <span className="text-[#00BFC2] font-semibold">Digisphere</span>
     </p>
 
-  </div>
-</footer>
+  </footer>
+   </div>
+  );
+      }
