@@ -153,6 +153,69 @@ export default function N2ITProductions() {
   </div>
 </div>
 
+<div className="px-4 py-12 max-w-6xl mx-auto">
+  <h2 className="text-3xl md:text-4xl font-bold mb-12 text-[#7d26cd] text-center">
+    What You Get When You Book N2IT
+  </h2>
+
+  {/* Block 1: Text Right / Image Left */}
+  <div className="flex flex-col md:flex-row items-center mb-16">
+    <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
+      <img
+        src="/images/pexels-keremkaplan-11533554.jpg"
+        alt="Expertise in Music Curation and Mixing"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#7d26cd]">
+        Expertise in Music Curation and Mixing
+      </h3>
+      <p>
+        Our DJs are seasoned professionals who understand the art of reading a crowd. Whether it’s a deep house groove, an energetic trance build-up, or a bass-heavy dubstep drop, every transition is timed to perfection. We blend genres seamlessly to keep energy levels high while maintaining flow and coherence.
+      </p>
+    </div>
+  </div>
+
+  {/* Block 2: Text Left / Image Right */}
+  <div className="flex flex-col md:flex-row-reverse items-center mb-16">
+    <div className="md:w-1/2 md:pl-8 mb-6 md:mb-0">
+      <img
+        src="/images/pexels-giovanaspiller-16580469.jpg"
+        alt="State-of-the-Art Equipment and Sound Design"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#00bfc2]">
+        State-of-the-Art Equipment and Sound Design
+      </h3>
+      <p>
+        Sound quality defines an event’s impact. Our team uses industry-leading Pioneer DJ systems, digital mixers, and advanced sound reinforcement setups to ensure crystal-clear audio and powerful bass. Each event is fine-tuned using acoustic analysis and professional-grade speakers to ensure immersive sound delivery.
+      </p>
+    </div>
+  </div>
+
+  {/* Block 3: Text Right / Image Left */}
+  <div className="flex flex-col md:flex-row items-center">
+    <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
+      <img
+        src="/images/pexels-ismail-cem-aycan-3786191-5610120.jpg"
+        alt="Seamless Event Management and Coordination"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#7d26cd]">
+        Seamless Event Management and Coordination
+      </h3>
+      <p>
+        From lighting to stage setup, our in-house coordinators handle every detail. We collaborate with event planners, photographers, and venue managers to ensure the music matches the moment—perfectly.
+      </p>
+    </div>
+  </div>
+</div>
+
    {/* Tracks Section */}
       <TracksSection />
 
