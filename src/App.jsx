@@ -63,111 +63,91 @@ export default function N2ITProductions() {
         </p>
       </section>
 
-      {/* Services Section */}
-      <section className="p-8 bg-gray-900">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {[
-            {
-              title: "Live DJ Sets",
-              desc: "From deep house to drum & bass, trance to techno, we read the crowd and create the perfect vibe, with seamless mixes and deep bass, we'll keep your guests dancing all night long."
-            },
-            {
-              title: "Event DJ Services",
-              desc: "Weddings, private parties, and corporate events — we bring the sound and style tailored to your vision, creating an unforgettable experience."
-            },
-            {
-              title: "Event Production",
-              desc: "Top-tier sound systems, intelligent lighting, and FX that transform any venue into a high-energy atmosphere."
-            }
-          ].map(({ title, desc }) => (
-            <Card key={title} className="bg-black border-gray-700 border">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-[#00BFC2]">{title}</h3>
-                <p className="text-gray-300">{desc}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        <div id="service-areas" className="bg-[#1a1a1a] text-white font-sans py-16 text-center px-4 mt-12">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6">📍 Our Service Areas</h2>
-            <p className="text-base text-gray-300 mb-6 leading-relaxed">
-              We proudly serve the entire Tampa Bay Area, including:
-            </p>
-            <ul className="text-[#00BFC2] font-semibold space-y-2 text-lg">
-              <li>St. Petersburg</li>
-              <li>Tampa Bay Area</li>
-              <li>Brandon</li>
-              <li>Bradenton</li>
-              <li>Sarasota</li>
-              <li>Plus surrounding cities and venues across the state of Florida</li>
-            </ul>
-            <p className="text-base text-gray-300 mt-6 leading-relaxed">
-              No matter where your event is, <span className="font-semibold text-white">we bring the beats to you.</span>
-            </p>
-          </div>
-        </div>
-      </section>
-
-        <div className="px-4 py-12 max-w-6xl mx-auto">
+     {/* SERVICES SECTION */}
+<div className="px-4 py-12 max-w-6xl mx-auto">
   <h2 className="text-3xl md:text-4xl font-bold mb-12 text-[#7d26cd] text-center">
-    What You Get When You Book N2IT
+    Our Services
   </h2>
 
-  {/* Block 1: Text Right / Image Left */}
+  {/* Service 1: Text Right / Image Left */}
   <div className="flex flex-col md:flex-row items-center mb-16">
     <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
       <img
-        src="/images/pexels-keremkaplan-11533554.jpg"
-        alt="Expertise in Music Curation and Mixing"
+        src="/images/service-live-dj.jpg"
+        alt="Live EDM DJ Sets"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
     </div>
     <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
       <h3 className="font-bold text-2xl mb-3 text-[#7d26cd]">
-        Expertise in Music Curation and Mixing
+        Live EDM DJ Sets
       </h3>
       <p>
-        Our DJs are seasoned professionals who understand the art of reading a crowd. Whether it’s a deep house groove, an energetic trance build-up, or a bass-heavy dubstep drop, every transition is timed to perfection. We blend genres seamlessly to keep energy levels high while maintaining flow and coherence.
+        High-energy, crowd-reading sets spanning house, trance, bass, and 
+        festival-ready drops. We shape the arc of your night so the floor 
+        stays lit from open to close.
       </p>
     </div>
   </div>
 
-  {/* Block 2: Text Left / Image Right */}
+  {/* Service 2: Text Left / Image Right */}
   <div className="flex flex-col md:flex-row-reverse items-center mb-16">
     <div className="md:w-1/2 md:pl-8 mb-6 md:mb-0">
       <img
-        src="/images/pexels-giovanaspiller-16580469.jpg"
-        alt="State-of-the-Art Equipment and Sound Design"
+        src="/images/service-event-dj.jpg"
+        alt="Event DJ Services"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
     </div>
     <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
       <h3 className="font-bold text-2xl mb-3 text-[#00bfc2]">
-        State-of-the-Art Equipment and Sound Design
+        Event DJ Services
       </h3>
       <p>
-        Sound quality defines an event’s impact. Our team uses industry-leading Pioneer DJ systems, digital mixers, and advanced sound reinforcement setups to ensure crystal-clear audio and powerful bass. Each event is fine-tuned using acoustic analysis and professional-grade speakers to ensure immersive sound delivery.
+        Weddings, clubs, corporate events, and private parties—pro-grade 
+        sound, seamless transitions, and curated playlists tailored to 
+        your crowd and venue.
       </p>
     </div>
   </div>
 
-  {/* Block 3: Text Right / Image Left */}
-  <div className="flex flex-col md:flex-row items-center">
+  {/* Service 3: Text Right / Image Left */}
+  <div className="flex flex-col md:flex-row items-center mb-16">
     <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
       <img
-        src="/images/pexels-ismail-cem-aycan-3786191-5610120.jpg"
-        alt="Seamless Event Management and Coordination"
+        src="/images/service-production.jpg"
+        alt="Music Production"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
     </div>
     <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
       <h3 className="font-bold text-2xl mb-3 text-[#7d26cd]">
-        Seamless Event Management and Coordination
+        Music Production
       </h3>
       <p>
-        From lighting to stage setup, our in-house coordinators handle every detail. We collaborate with event planners, photographers, and venue managers to ensure the music matches the moment—perfectly.
+        Custom edits, remixes, and original tracks for performers, creators, 
+        and brands—delivered mix/master ready for streaming, performance, 
+        or promo.
+      </p>
+    </div>
+  </div>
+
+  {/* Service 4: Text Left / Image Right */}
+  <div className="flex flex-col md:flex-row-reverse items-center">
+    <div className="md:w-1/2 md:pl-8 mb-6 md:mb-0">
+      <img
+        src="/images/service-lighting-fx.jpg"
+        alt="Lighting & FX"
+        className="w-full rounded-2xl shadow-xl object-cover"
+      />
+    </div>
+    <div className="md:w-1/2 text-gray-200 text-lg leading-relaxed">
+      <h3 className="font-bold text-2xl mb-3 text-[#00bfc2]">
+        Lighting & FX
+      </h3>
+      <p>
+        Dynamic lighting, haze, and visual FX synced to the music to elevate 
+        the atmosphere and bring festival-level energy to any room.
       </p>
     </div>
   </div>
