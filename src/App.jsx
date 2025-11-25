@@ -73,7 +73,7 @@ export default function N2ITProductions() {
   <div className="flex flex-col md:flex-row items-center mb-16">
     <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0">
       <img
-        src="/public/images/tunnelcirclelights.png"
+        src="/images/tunnelcirclelights.png"
         alt="Live EDM DJ Sets"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
@@ -94,7 +94,7 @@ export default function N2ITProductions() {
   <div className="flex flex-col md:flex-row-reverse items-center mb-16">
     <div className="md:w-1/2 md:pl-8 mb-6 md:mb-0">
       <img
-        src="public/images/pexels-wendywei-1537637"
+        src="/images/pexels-wendywei-1537637"
         alt="Event DJ Services"
         className="w-full rounded-2xl shadow-xl object-cover"
       />
